@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Inter;
+    src: url(Inter.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Inter;
+}
+
+
+
+
+
+
+header {
+    margin: 0 10px;
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+
+    display: flex;
+    gap: 20px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#logga {
+    height: 20px;
+    padding: 10px 0;
+}
+
+#hamburger {
+    display: none;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+#left, #right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+}
