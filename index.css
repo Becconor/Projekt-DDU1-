@@ -221,9 +221,22 @@ main {
 }
 
 
+@media (max-width: 600px) {
+    .info {
+        max-width: 520px;
+    }
 
+    .info-top {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
 
-
+    .p26 {
+        margin: 0;
+        font-size: 27px;
+    }
+}
 
 
 
