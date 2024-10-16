@@ -295,12 +295,58 @@ main {
     max-height: 15px;
 }
 
-
 @media (max-width: 600px) {
     .botton-containers {
         max-width: 510px;
     }
 }
+
+
+
+
+
+
+#built{
+    margin: 100px 0;
+}
+
+.team {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+#teams-container {
+    width: 100%;
+
+    display: flex;
+    flex-basis: auto;
+
+    text-align: center;
+}
+
+#teams-container div {
+    padding: 35px;
+}
+
+a.link {
+    text-decoration: underline;
+    display: block;
+
+    color: #050505;
+    padding: 0;
+}
+
+a.link:hover {
+    color: #087fe7;
+}
+
+.one {
+    border-left: 1px solid #e5e5e5;
+}
+
+
+
+
 
 
 
@@ -350,9 +396,27 @@ p {
     font-weight: 550;
     margin: 5px 0;
 }
+.p151 {
+    font-size: 15px;
+    font-weight: 320;
+    color: #7f7f7f;
+    margin: 10px 0;
+}
+
+.p152 {
+    font-size: 15px;
+    font-weight: 320;
+    color: #7f7f7f;
+}
 
 .p18 {
     font-size: 18px;
     font-weight: 320;
     color: #7f7f7f;
+}
+
+.p26 {
+    font-size: 26px;
+    font-weight: 650;
+    margin: 0;
 }
