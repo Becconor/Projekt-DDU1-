@@ -296,6 +296,13 @@ main {
 }
 
 
+@media (max-width: 600px) {
+    .botton-containers {
+        max-width: 510px;
+    }
+}
+
+
 
 
 
