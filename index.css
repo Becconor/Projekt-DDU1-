@@ -344,6 +344,17 @@ a.link:hover {
     border-left: 1px solid #e5e5e5;
 }
 
+@media (max-width: 600px) {
+    #teams-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one {
+        border: none;
+    }
+}
+
 
 
 
