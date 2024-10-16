@@ -148,8 +148,16 @@ main {
         max-width: 540px;
     }
 
-    #info-together {
+    .info-half {
+        flex-direction: column;
+    }
+
+    .info-half#reverse {
         flex-direction: column-reverse;
+    }
+
+    .half-pic {
+        margin-top: 30px;
     }
 
     .botton-container#center {
@@ -371,7 +379,6 @@ a.link:hover {
 }
 
 
-
 #text-link {
     display: inline-block;
     text-decoration: underline;
@@ -379,7 +386,7 @@ a.link:hover {
 
 #procent-container {
     width: 100%;
-    margin: 50px 0 0 0 ;
+    margin: 50px 0 0 0;
 
     display: flex;
 
@@ -401,6 +408,8 @@ a.link:hover {
     #procent-container {
         display: flex;
         flex-direction: column;
+
+        margin: 0;
     }
 
     .procent {
@@ -435,7 +444,7 @@ h1 {
 .h1 {
     font-size: 53px;
     font-weight: 650;
-    color: #7f7f7f;
+    color: #666666;
     margin: 0;
 }
 
@@ -493,6 +502,13 @@ p {
     font-size: 18px;
     font-weight: 320;
     color: #7f7f7f;
+}
+
+.p181 {
+    font-size: 18px;
+    font-weight: 320;
+    color: #666666;
+    margin: 10px 0;
 }
 
 .p26 {
