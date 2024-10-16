@@ -325,15 +325,9 @@ main {
 
 #teams-container {
     width: 100%;
+    text-align: center;
 
     display: flex;
-    flex-basis: auto;
-
-    text-align: center;
-}
-
-#teams-container div {
-    padding: 35px;
 }
 
 a.link {
@@ -348,8 +342,18 @@ a.link:hover {
     color: #087fe7;
 }
 
-.one {
+#one {
+    padding: 35px 35px 35px 0;
+}
+
+#two {
     border-left: 1px solid #e5e5e5;
+    padding: 35px;
+}
+
+#three {
+    border-left: 1px solid #e5e5e5;
+    padding: 35px 0 35px 35px;
 }
 
 @media (max-width: 600px) {
@@ -358,8 +362,13 @@ a.link:hover {
         flex-direction: column;
     }
 
-    .one {
+    #one {
+        padding: 35px;
+    }
+
+    #two, #three {
         border: none;
+        padding: 35px;
     }
 }
 
@@ -377,7 +386,6 @@ a.link:hover {
     text-align: center;
     margin: 0 0 50px 0;
 }
-
 
 #text-link {
     display: inline-block;
