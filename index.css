@@ -6,6 +6,7 @@
 body {
     margin: 0;
     font-family: Inter;
+    color: #050505;
 }
 
 
@@ -17,6 +18,7 @@ header {
     margin: 0 10px;
     background-color: white;
     border-bottom: 1px solid #e5e5e5;
+    font-size: 13px;
 
     display: flex;
     gap: 20px;
@@ -50,14 +52,38 @@ header {
     gap: 10px;
 }
 
+a {
+    color: #050505;
+    text-decoration: none;
+    padding: 5px;
 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
+a.nav:hover {
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+}
 
+#line {
+    border: 0.5px solid #e5e5e5;
+    height: 15px;
+}
 
+#botton {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
 
+    display: inline-block;
 
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.1);
+}
 
-
-@media (max-width: 600px) {
-
+#botton:hover {
+    background-color: #353535;
 }
