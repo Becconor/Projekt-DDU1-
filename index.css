@@ -73,7 +73,7 @@ a.nav:hover {
     height: 15px;
 }
 
-#botton {
+.botton {
     color: white;
     background-color: black;
     border-radius: 5px;
@@ -84,7 +84,7 @@ a.nav:hover {
     box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.1);
 }
 
-#botton:hover {
+.botton:hover {
     background-color: #353535;
 }
 
@@ -110,4 +110,45 @@ a.nav:hover {
         display: block;
         height: 25px;
     }
+}
+
+
+
+
+
+
+
+main {
+    max-width: 1000px;
+    height: auto;
+    margin: 100px auto 50px auto;
+    box-sizing: border-box;
+}
+
+#info-together {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+}
+
+.botton-container {
+    max-width: 450px;
+}
+
+.half-pic {
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 650;
+    margin: 0;
+}
+
+.p18 {
+    font-size: 18px;
+    font-weight: 320;
+    color: #7f7f7f;
 }
