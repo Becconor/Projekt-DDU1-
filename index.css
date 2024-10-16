@@ -125,16 +125,14 @@ a.nav:hover {
 main {
     max-width: 1000px;
     height: auto;
-    margin: 0 auto;
+    margin: 125px auto 100px auto;
     box-sizing: border-box;
 }
 
-#info-together {
+.info-half {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    margin: 125px 0 100px 0;
 }
 
 .botton-container {
@@ -172,6 +170,8 @@ main {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     padding: 20px 0;
+
+    margin-top: 100px;
 
     display: flex;
     flex-wrap: wrap;
@@ -365,6 +365,62 @@ a.link:hover {
 
 
 
+#rated {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+
+
+#text-link {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+#procent-container {
+    width: 100%;
+    margin: 50px 0 0 0 ;
+
+    display: flex;
+
+    text-align: center;
+    padding: 10px;
+}
+
+.procent {
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+
+@media (max-width: 600px) {
+    #intro.special {
+        flex-direction: column;
+    }
+
+    #procent-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .procent {
+        flex-grow: 1;
+        flex-basis: 25%;
+
+        margin: 40px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -373,6 +429,13 @@ a.link:hover {
 h1 {
     font-size: 45px;
     font-weight: 650;
+    margin: 0;
+}
+
+.h1 {
+    font-size: 53px;
+    font-weight: 650;
+    color: #7f7f7f;
     margin: 0;
 }
 
@@ -388,6 +451,12 @@ h3 {
     color: #7f7f7f;
     text-align: center;
     margin: 0 20px;
+}
+
+h5 {
+    font-size: 26px;
+    font-weight: 650;
+    margin: 0;
 }
 
 p {
