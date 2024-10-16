@@ -435,9 +435,79 @@ a.link:hover {
 
 
 
+footer {
+    margin: 10px 10px 0 10px;
+    height: auto;
+    border-top: 1px solid #e5e5e5;
+}
+
+#footer-container {
+    max-width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    display: flex;
+    gap: 30px;
+}
+
+#socials {
+    display: flex;
+    gap: 10px;
+
+    height: 25px;
+    margin: 30px 0 100px 0;
+}
+
+#help-container {
+    display: flex;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+#logga-2 {
+    height: 35px;
+}
+
+#overview {
+    max-width: 300px;
+    flex-grow: 1;
+}
+
+.help {
+    flex-grow: 1;
+}
+
+a.grey {
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+a.grey:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+    #help-container {
+        flex-wrap: wrap;
+        gap: 150px;
+        max-width: 400px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    #overview {
+        max-width: 520px;
+    }
+}
 
 
 
+/* Fixa mobilvyn för help så de blir vertikalt jämna*/
 
 
 
@@ -493,6 +563,7 @@ p {
     font-weight: 550;
     margin: 5px 0;
 }
+
 .p151 {
     font-size: 15px;
     font-weight: 320;
