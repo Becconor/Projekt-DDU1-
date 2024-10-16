@@ -31,7 +31,7 @@ header {
 
 #logga {
     height: 20px;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 #hamburger {
@@ -86,4 +86,28 @@ a.nav:hover {
 
 #botton:hover {
     background-color: #353535;
+}
+
+
+
+@media (max-width: 600px) {
+    header {
+        border-bottom: 0;
+        max-width: 600px;
+        margin: 0 20px;
+        padding: 10px 0 0 0;
+    }
+
+    #left, #right a {
+        display: none;
+    }
+
+    #right div {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        height: 25px;
+    }
 }
