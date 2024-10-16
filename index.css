@@ -81,7 +81,7 @@ a.nav:hover {
 
     display: inline-block;
 
-    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .botton:hover {
@@ -125,7 +125,7 @@ main {
     box-sizing: border-box;
 }
 
-#info-together {
+.info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,4 +151,20 @@ h1 {
     font-size: 18px;
     font-weight: 320;
     color: #7f7f7f;
+}
+
+@media (max-width: 600px) {
+    main {
+        max-width: 560px;
+    }
+
+    .info {
+        flex-direction: column-reverse;
+    }
+
+    .botton-container#center {
+        text-align: center;
+        margin-top: 20px;
+        max-width: 510px;
+    }
 }
