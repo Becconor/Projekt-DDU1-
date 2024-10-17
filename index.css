@@ -100,6 +100,8 @@ a.nav:hover {
         max-width: 600px;
         margin: 0 20px;
         padding: 10px 0 0 0;
+
+        position: static;
     }
 
     #left, #right a {
@@ -113,6 +115,13 @@ a.nav:hover {
     #hamburger {
         display: block;
         height: 25px;
+        padding: 5px 10px;
+    }
+
+    #hamburger:hover {
+        background-color: #f4f4f4;
+        padding: 5px 10px;
+        border-radius: 5px;
     }
 }
 
@@ -146,6 +155,7 @@ main {
 @media (max-width: 600px) {
     main {
         max-width: 540px;
+        margin: 75px auto 100px auto;
     }
 
     .info-half {
@@ -456,7 +466,7 @@ footer {
     gap: 10px;
 
     height: 25px;
-    margin: 30px 0 100px 0;
+    margin: 30px 0 60px 0;
 }
 
 #help-container {
@@ -490,15 +500,49 @@ a.grey:hover {
 
 @media (max-width: 600px) {
     #help-container {
-        flex-wrap: wrap;
-        gap: 150px;
-        max-width: 400px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
     }
 
     #footer-container {
         flex-direction: column;
         padding: 40px 20px;
     }
+    #socials {
+        margin: 30px 0 30px 0;
+    }
+
+    
+
+    
+
+    /*
+    #help-container {
+        flex-wrap: wrap;
+        gap: 150px;
+        max-width: 520px;
+
+
+        display: flex;
+        row
+        wrap
+        padding 20px
+    }
+
+    #help-container {
+        max-width: 520px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+        */
 
     #overview {
         max-width: 520px;
