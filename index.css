@@ -236,19 +236,24 @@ a.link:hover {
 }
 
 #one {
-    padding: 0 35px 0 0;
+    flex-basis: 33%;
+    box-sizing: border-box;
+    padding: 0 20px 0 0;
 }
 
 #two {
-    padding: 0 35px;
+    flex-basis: 33%;
+    padding: 0 20px;
 }
 
 #three {
-    padding: 0 0 0 35px;
+    flex-basis: 33%;
+    padding: 0 0 0 20px;
 }
 
 .one {
     border-left: 1px solid #e5e5e5;
+    box-sizing: border-box;
 }
 
 
@@ -273,7 +278,6 @@ a.link:hover {
 }
 
 .procent {
-    flex-grow: 1;
     flex-basis: 25%;
 }
 
@@ -295,8 +299,12 @@ footer {
     gap: 30px;
 }
 
-#help-container, #overview, .help {
+#help-container {
     flex-grow: 1;
+} 
+
+.help {
+    flex-basis: 25%;
 }
 
 #footer-container {
